@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import type { BoardCategory } from '../../types';
 import { BOARD_MEMBERS, GOVERNANCE_COUNTS, SUB_COMMITTEES } from '../../data/ocpiData';
-import { SparkleStar, DiamondTwinkle, DiagonalHatch, RadialSunburst, HalftoneWaveGrid } from '../DecorativeOrnaments';
+import { SparkleStar, DiamondTwinkle, HalftoneWaveGrid } from '../DecorativeOrnaments';
 import { ScrollReveal } from '../ScrollReveal';
 
 export const GovernanceView: React.FC = () => {

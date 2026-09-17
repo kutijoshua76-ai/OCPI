@@ -183,7 +183,7 @@ export const WelcomeView: React.FC<WelcomeViewProps> = ({ onSelectView, onOpenMe
                   </div>
 
                   {/* Bottom-Left Accent Circle */}
-                  <div className="absolute z-10 bottom-2 left-2 sm:bottom-4 sm:left-4 w-18 h-18 xs:w-24 xs:h-24 sm:w-32 sm:h-32 lg:w-36 lg:h-36 rounded-full overflow-hidden border-[2.5px] sm:border-[4px] border-white shadow-lg bg-slate-100 group-hover:scale-105 group-hover:translate-y-1 transition-transform duration-500">
+                  <div className="absolute z-10 bottom-2 left-2 sm:bottom-4 sm:left-4 w-20 h-20 xs:w-24 xs:h-24 sm:w-32 sm:h-32 lg:w-36 lg:h-36 rounded-full overflow-hidden border-[2.5px] sm:border-[4px] border-white shadow-lg bg-slate-100 group-hover:scale-105 group-hover:translate-y-1 transition-transform duration-500">
                     <img
                       src={pillar.bottomImg}
                       alt={pillar.title}
